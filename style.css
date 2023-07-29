@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+    background: linear-gradient(rgb(120, 255, 255),rgb(255, 146, 251));
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 300px;
+    /* background-color: #003253eb; */
+    background: linear-gradient(#003253eb , rgb(0, 92, 126));
+    box-shadow: rgba(0, 0, 0, 0.741) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 3px 4px;
+    border-radius: 3%;
+    /* border: 4px solid #003b5feb; */
+}
+
+label {
+    font-size: 30px;
+    line-height: 78px;
+    color: rgb(175, 255, 255);
+}
+
+#temp {
+    
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    border: 2px solid #006b73;
+}
+
+#temp_diff {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid #006b73;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: #ff5900;
+    color: aliceblue;
+    padding: 5px;
+    transition: all 0.2s ease;
+}
+
+#submit:hover{
+    background-color: #df4e00;
+    cursor: pointer;
+}
+
+#result{
+    font-size: 27px;
+    color:rgb(228, 255, 255) ;
+}
